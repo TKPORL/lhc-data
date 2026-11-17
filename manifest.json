@@ -1,0 +1,45 @@
+{
+  "note": "内置兜底清单。真正的清单在 lotto-eni.pages.dev/manifest.json（我可热更）。域名死后改远程这份即可，手机不用重发。",
+  "primary": "https://raw.githubusercontent.com/TKPORL/lhc-data/main/results.json",
+  "relay": "https://lotto-eni.pages.dev/lottery/latest.json",
+  "macau": [
+    {
+      "id": "mac_relay",
+      "url": "https://lotto-eni.pages.dev/lottery/latest.json?r=macau",
+      "type": "json"
+    },
+    {
+      "id": "mac_1158",
+      "url": "https://www.1158.com/lhc/",
+      "type": "html"
+    },
+    {
+      "id": "mac_11366",
+      "url": "http://www.11366.com/",
+      "type": "html"
+    },
+    {
+      "id": "mac_6hcb",
+      "url": "http://www.6hcb.com/",
+      "type": "html"
+    }
+  ],
+  "hongkong": [
+    {
+      "id": "hk_relay",
+      "url": "https://lotto-eni.pages.dev/lottery/latest.json?r=hongkong",
+      "type": "json"
+    },
+    {
+      "id": "hk_1158",
+      "url": "https://www.1158.com/lhc/",
+      "type": "html"
+    },
+    {
+      "id": "hk_11366",
+      "url": "http://www.11366.com/",
+      "type": "html"
+    }
+  ],
+  "_hot": "这份是App启动时优先拉的远程清单。改 primary 或加删源，commit 即全网愈合，无需重发APK。"
+}
