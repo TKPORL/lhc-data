@@ -1,15 +1,19 @@
 {
   "macau": [
     {
-      "id": "mac_lotobao_mo",
+      "id": "mac_lotobao",
       "url": "https://lotobao.com/loto/mo/new_mark6",
-      "type": "html",
-      "err": "The read operation timed out"
+      "type": "render",
+      "code": 200,
+      "len": 166477,
+      "has7": false,
+      "sample": "",
+      "isjson": true
     },
     {
       "id": "mac_jc",
       "url": "https://macaujc.com/",
-      "type": "html",
+      "type": "render",
       "code": 200,
       "len": 155002,
       "has7": false,
@@ -19,7 +23,7 @@
     {
       "id": "mac_jcmacau",
       "url": "https://jc-macau.com/",
-      "type": "html",
+      "type": "render",
       "code": 200,
       "len": 155369,
       "has7": false,
@@ -29,7 +33,7 @@
     {
       "id": "mac_app1",
       "url": "https://111826h2.66111eee3.com/area/aomen",
-      "type": "html",
+      "type": "render",
       "code": 200,
       "len": 12715,
       "has7": false,
@@ -39,7 +43,7 @@
     {
       "id": "mac_app2",
       "url": "https://111826h2.66111fff3.com/area/aomen",
-      "type": "html",
+      "type": "render",
       "code": 200,
       "len": 12715,
       "has7": false,
@@ -49,7 +53,7 @@
     {
       "id": "mac_app3",
       "url": "https://111826h2.66111hhh3.com/area/aomen",
-      "type": "html",
+      "type": "render",
       "code": 200,
       "len": 12715,
       "has7": false,
@@ -59,7 +63,7 @@
     {
       "id": "mac_app4",
       "url": "https://111826h2.66111iii3.com/area/aomen",
-      "type": "html",
+      "type": "render",
       "code": 200,
       "len": 12715,
       "has7": false,
@@ -69,7 +73,7 @@
     {
       "id": "mac_tonti",
       "url": "https://tonti4gbn.yzjkzzbfn.xyz/?redirect=/#_t=25869daj",
-      "type": "html",
+      "type": "render",
       "code": 200,
       "len": 4447,
       "has7": false,
@@ -79,7 +83,7 @@
     {
       "id": "mac_tonto",
       "url": "https://tonto62pz.aajnaaraahmc.xyz/?redirect=/#_t=25869d66",
-      "type": "html",
+      "type": "render",
       "code": 200,
       "len": 4447,
       "has7": false,
@@ -99,16 +103,6 @@
       "isjson": true
     },
     {
-      "id": "hk_1314",
-      "url": "https://hk1314.com/?cai_type=HK",
-      "type": "html",
-      "code": 200,
-      "len": 27809,
-      "has7": false,
-      "sample": "",
-      "isjson": false
-    },
-    {
       "id": "hk_hkmark6",
       "url": "https://www.hkmark6.net/",
       "type": "html",
@@ -126,6 +120,16 @@
       "len": 134069,
       "has7": true,
       "sample": "4,7,18,30,42,45,3",
+      "isjson": false
+    },
+    {
+      "id": "hk_1314",
+      "url": "https://hk1314.com/?cai_type=HK",
+      "type": "html",
+      "code": 200,
+      "len": 27809,
+      "has7": false,
+      "sample": "",
       "isjson": false
     },
     {
@@ -188,7 +192,11 @@
       "id": "hk_lottery_hk",
       "url": "https://lottery.hk/liuhecai/",
       "type": "html",
-      "err": "<urlopen error timed out>"
+      "code": 200,
+      "len": 11908,
+      "has7": false,
+      "sample": "",
+      "isjson": false
     },
     {
       "id": "hk_on99_page",

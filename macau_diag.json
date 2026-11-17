@@ -1,0 +1,68 @@
+{
+  "mac_lotobao": {
+    "url": "https://lotobao.com/loto/mo/new_mark6",
+    "final": "https://lotobao.com/loto/mo/new_mark6",
+    "nlen": 1,
+    "has7": false,
+    "apis": [
+      "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9013928769717585&ou"
+    ]
+  },
+  "mac_jc": {
+    "url": "https://macaujc.com/",
+    "final": "https://macaujc.com/",
+    "nlen": 1,
+    "has7": false,
+    "apis": []
+  },
+  "mac_jcmacau": {
+    "url": "https://jc-macau.com/",
+    "final": null,
+    "nlen": 0,
+    "has7": false,
+    "apis": [],
+    "err": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://jc-mac"
+  },
+  "mac_app1": {
+    "url": "https://111826h2.66111eee3.com/area/aomen",
+    "final": "https://111826h2.66111eee3.com/area/aomen",
+    "nlen": 1,
+    "has7": false,
+    "apis": []
+  },
+  "mac_app2": {
+    "url": "https://111826h2.66111fff3.com/area/aomen",
+    "final": "https://111826h2.66111fff3.com/area/aomen",
+    "nlen": 1,
+    "has7": false,
+    "apis": []
+  },
+  "mac_app3": {
+    "url": "https://111826h2.66111hhh3.com/area/aomen",
+    "final": "https://111826h2.66111hhh3.com/area/aomen",
+    "nlen": 1,
+    "has7": false,
+    "apis": []
+  },
+  "mac_app4": {
+    "url": "https://111826h2.66111iii3.com/area/aomen",
+    "final": "https://111826h2.66111iii3.com/area/aomen",
+    "nlen": 1,
+    "has7": false,
+    "apis": []
+  },
+  "mac_tonti": {
+    "url": "https://tonti4gbn.yzjkzzbfn.xyz/?redirect=/#_t=25869daj",
+    "final": "https://tonti4gbn.yzjkzzbfn.xyz/?redirect=/#_t=25869daj",
+    "nlen": 1,
+    "has7": false,
+    "apis": []
+  },
+  "mac_tonto": {
+    "url": "https://tonto62pz.aajnaaraahmc.xyz/?redirect=/#_t=25869d66",
+    "final": "https://tonto62pz.aajnaaraahmc.xyz/?redirect=/#_t=25869d66",
+    "nlen": 1,
+    "has7": false,
+    "apis": []
+  }
+}
