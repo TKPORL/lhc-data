@@ -1,0 +1,18 @@
+{
+  "ts": 0,
+  "hongkong": {
+    "issue": "26/122",
+    "time": "2026-11-17",
+    "special": "36",
+    "balls": [
+      4,
+      7,
+      18,
+      30,
+      42,
+      45
+    ],
+    "source": "hk_on99"
+  },
+  "macau": null
+}
