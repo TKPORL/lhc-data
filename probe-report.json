@@ -5,7 +5,7 @@
       "url": "https://lotobao.com/loto/mo/new_mark6",
       "type": "html",
       "code": 200,
-      "len": 166502,
+      "len": 166496,
       "has7": false,
       "sample": "",
       "isjson": true
@@ -192,11 +192,7 @@
       "id": "hk_lottery_hk",
       "url": "https://lottery.hk/liuhecai/",
       "type": "html",
-      "code": 200,
-      "len": 12650,
-      "has7": false,
-      "sample": "",
-      "isjson": false
+      "err": "<urlopen error timed out>"
     },
     {
       "id": "hk_on99_page",
