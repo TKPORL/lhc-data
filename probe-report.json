@@ -4,11 +4,7 @@
       "id": "mac_lotobao_mo",
       "url": "https://lotobao.com/loto/mo/new_mark6",
       "type": "html",
-      "code": 200,
-      "len": 166496,
-      "has7": false,
-      "sample": "",
-      "isjson": true
+      "err": "The read operation timed out"
     },
     {
       "id": "mac_jc",
