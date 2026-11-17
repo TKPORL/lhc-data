@@ -1,21 +1,21 @@
 {
-  "_note": "上游源清单。每地区按 主->备 顺序，取到第一个合法(7球在1-49+特码)即停。域名死掉：改这一份、commit，全网愈合，手机App不变。JSON类型=直接{results:[{winningNumbers[6],extraNumber,drawId,drawDate}]}或{data:{balls,special}}；HTML类型=页面含7个1-49数字。",
+  "_note": "上游源清单。http/json 类型由 scrape.py 直接抓；render 类型由 render.py 用无头浏览器渲染后抓。每地区按顺序取到第一个合法(7球1-49+特码)即停。域名死掉改这一份、commit 即全网愈合，手机App不变。",
   "macau": [
-    { "id": "mac_lotobao_mo", "url": "https://lotobao.com/loto/mo/new_mark6", "type": "html" },
-    { "id": "mac_jc", "url": "https://macaujc.com/", "type": "html" },
-    { "id": "mac_jcmacau", "url": "https://jc-macau.com/", "type": "html" },
-    { "id": "mac_app1", "url": "https://111826h2.66111eee3.com/area/aomen", "type": "html" },
-    { "id": "mac_app2", "url": "https://111826h2.66111fff3.com/area/aomen", "type": "html" },
-    { "id": "mac_app3", "url": "https://111826h2.66111hhh3.com/area/aomen", "type": "html" },
-    { "id": "mac_app4", "url": "https://111826h2.66111iii3.com/area/aomen", "type": "html" },
-    { "id": "mac_tonti", "url": "https://tonti4gbn.yzjkzzbfn.xyz/?redirect=/#_t=25869daj", "type": "html" },
-    { "id": "mac_tonto", "url": "https://tonto62pz.aajnaaraahmc.xyz/?redirect=/#_t=25869d66", "type": "html" }
+    { "id": "mac_lotobao", "url": "https://lotobao.com/loto/mo/new_mark6", "type": "render" },
+    { "id": "mac_jc", "url": "https://macaujc.com/", "type": "render" },
+    { "id": "mac_jcmacau", "url": "https://jc-macau.com/", "type": "render" },
+    { "id": "mac_app1", "url": "https://111826h2.66111eee3.com/area/aomen", "type": "render" },
+    { "id": "mac_app2", "url": "https://111826h2.66111fff3.com/area/aomen", "type": "render" },
+    { "id": "mac_app3", "url": "https://111826h2.66111hhh3.com/area/aomen", "type": "render" },
+    { "id": "mac_app4", "url": "https://111826h2.66111iii3.com/area/aomen", "type": "render" },
+    { "id": "mac_tonti", "url": "https://tonti4gbn.yzjkzzbfn.xyz/?redirect=/#_t=25869daj", "type": "render" },
+    { "id": "mac_tonto", "url": "https://tonto62pz.aajnaaraahmc.xyz/?redirect=/#_t=25869d66", "type": "render" }
   ],
   "hongkong": [
     { "id": "hk_on99", "url": "https://on99.life/api/lottery/history", "type": "json" },
-    { "id": "hk_1314", "url": "https://hk1314.com/?cai_type=HK", "type": "html" },
     { "id": "hk_hkmark6", "url": "https://www.hkmark6.net/", "type": "html" },
     { "id": "hk_marksixinfo", "url": "https://marksixinfo.com/", "type": "html" },
+    { "id": "hk_1314", "url": "https://hk1314.com/?cai_type=HK", "type": "html" },
     { "id": "hk_newhkjc", "url": "https://www.newhkjc.com/", "type": "html" },
     { "id": "hk_672", "url": "https://hk672.com/", "type": "html" },
     { "id": "hk_673", "url": "https://hk673.com/", "type": "html" },
