@@ -1,0 +1,212 @@
+{
+  "macau": [
+    {
+      "id": "mac_lotobao_mo",
+      "url": "https://lotobao.com/loto/mo/new_mark6",
+      "type": "html",
+      "code": 200,
+      "len": 166502,
+      "has7": false,
+      "sample": "",
+      "isjson": true
+    },
+    {
+      "id": "mac_jc",
+      "url": "https://macaujc.com/",
+      "type": "html",
+      "code": 200,
+      "len": 155002,
+      "has7": false,
+      "sample": "",
+      "isjson": false
+    },
+    {
+      "id": "mac_jcmacau",
+      "url": "https://jc-macau.com/",
+      "type": "html",
+      "code": 200,
+      "len": 155369,
+      "has7": false,
+      "sample": "",
+      "isjson": false
+    },
+    {
+      "id": "mac_app1",
+      "url": "https://111826h2.66111eee3.com/area/aomen",
+      "type": "html",
+      "code": 200,
+      "len": 12715,
+      "has7": false,
+      "sample": "",
+      "isjson": false
+    },
+    {
+      "id": "mac_app2",
+      "url": "https://111826h2.66111fff3.com/area/aomen",
+      "type": "html",
+      "code": 200,
+      "len": 12715,
+      "has7": false,
+      "sample": "",
+      "isjson": false
+    },
+    {
+      "id": "mac_app3",
+      "url": "https://111826h2.66111hhh3.com/area/aomen",
+      "type": "html",
+      "code": 200,
+      "len": 12715,
+      "has7": false,
+      "sample": "",
+      "isjson": false
+    },
+    {
+      "id": "mac_app4",
+      "url": "https://111826h2.66111iii3.com/area/aomen",
+      "type": "html",
+      "code": 200,
+      "len": 12715,
+      "has7": false,
+      "sample": "",
+      "isjson": false
+    },
+    {
+      "id": "mac_tonti",
+      "url": "https://tonti4gbn.yzjkzzbfn.xyz/?redirect=/#_t=25869daj",
+      "type": "html",
+      "code": 200,
+      "len": 4447,
+      "has7": false,
+      "sample": "",
+      "isjson": false
+    },
+    {
+      "id": "mac_tonto",
+      "url": "https://tonto62pz.aajnaaraahmc.xyz/?redirect=/#_t=25869d66",
+      "type": "html",
+      "code": 200,
+      "len": 4447,
+      "has7": false,
+      "sample": "",
+      "isjson": false
+    }
+  ],
+  "hongkong": [
+    {
+      "id": "hk_on99",
+      "url": "https://on99.life/api/lottery/history",
+      "type": "json",
+      "code": 200,
+      "len": 104657,
+      "has7": false,
+      "sample": "",
+      "isjson": true
+    },
+    {
+      "id": "hk_1314",
+      "url": "https://hk1314.com/?cai_type=HK",
+      "type": "html",
+      "code": 200,
+      "len": 27809,
+      "has7": false,
+      "sample": "",
+      "isjson": false
+    },
+    {
+      "id": "hk_hkmark6",
+      "url": "https://www.hkmark6.net/",
+      "type": "html",
+      "code": 200,
+      "len": 61745,
+      "has7": true,
+      "sample": "36,4,7,18,30,42,4",
+      "isjson": false
+    },
+    {
+      "id": "hk_marksixinfo",
+      "url": "https://marksixinfo.com/",
+      "type": "html",
+      "code": 200,
+      "len": 134069,
+      "has7": true,
+      "sample": "4,7,18,30,42,45,3",
+      "isjson": false
+    },
+    {
+      "id": "hk_newhkjc",
+      "url": "https://www.newhkjc.com/",
+      "type": "html",
+      "code": 200,
+      "len": 169693,
+      "has7": false,
+      "sample": "",
+      "isjson": false
+    },
+    {
+      "id": "hk_672",
+      "url": "https://hk672.com/",
+      "type": "html",
+      "code": 200,
+      "len": 26441,
+      "has7": false,
+      "sample": "",
+      "isjson": false
+    },
+    {
+      "id": "hk_673",
+      "url": "https://hk673.com/",
+      "type": "html",
+      "code": 200,
+      "len": 26441,
+      "has7": false,
+      "sample": "",
+      "isjson": false
+    },
+    {
+      "id": "hk_674",
+      "url": "https://hk674.com/",
+      "type": "html",
+      "code": 200,
+      "len": 26074,
+      "has7": false,
+      "sample": "",
+      "isjson": false
+    },
+    {
+      "id": "hk_675",
+      "url": "https://hk675.com/",
+      "type": "html",
+      "code": 200,
+      "len": 26074,
+      "has7": false,
+      "sample": "",
+      "isjson": false
+    },
+    {
+      "id": "hk_mingpao",
+      "url": "https://news.mingpao.com/pns/%E5%85%AD%E5%90%88%E5%BD%A9/marksix",
+      "type": "html",
+      "err": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "hk_lottery_hk",
+      "url": "https://lottery.hk/liuhecai/",
+      "type": "html",
+      "code": 200,
+      "len": 12650,
+      "has7": false,
+      "sample": "",
+      "isjson": false
+    },
+    {
+      "id": "hk_on99_page",
+      "url": "https://on99.life/lottery/results",
+      "type": "html",
+      "code": 200,
+      "len": 334564,
+      "has7": false,
+      "sample": "",
+      "isjson": true
+    }
+  ]
+}
