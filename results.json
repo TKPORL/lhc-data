@@ -1,5 +1,7 @@
 {
-  "ts": 0,
+  "ts": 1794943461,
+  "macau": null,
+  "macau_is_cached": true,
   "hongkong": {
     "issue": "26/122",
     "time": "2026-11-17",
@@ -12,7 +14,8 @@
       42,
       45
     ],
-    "source": "hk_on99"
+    "source": "hk_on99",
+    "fetched": 1794943473
   },
-  "macau": null
+  "hongkong_is_cached": false
 }
