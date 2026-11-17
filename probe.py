@@ -31,3 +31,17 @@ for region in ("macau", "hongkong"):
 
 json.dump(rep, open(os.path.join(HERE, "probe-report.json"), "w"), ensure_ascii=False, indent=2)
 print("WROTE probe-report.json")
+
+# ---- 额外：扒 lotobao 澳门页内嵌 JSON 结构，便于写解析器 ----
+import re as _re
+try:
+    code, body = probe("https://lotobao.com/loto/mo/new_mark6")
+    keys = ["winningNumbers","extraNumber","\"balls\"","results","drawId","drawDate","issue"]
+    peek = {}
+    for k in keys:
+        i = body.find(k)
+        peek[k] = (body[max(0,i-60):i+120].replace("\n"," ") if i>=0 else "<not found>")
+    json.dump(peek, open(os.path.join(HERE, "peek.json"), "w"), ensure_ascii=False, indent=2)
+    print(open(os.path.join(HERE, "peek.json")).read())
+except Exception as e:
+    print("lotobao peek err:", e)
