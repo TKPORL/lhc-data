@@ -107,7 +107,10 @@ def main():
     for region in REGIONS:
         chosen = None
         for src in up.get(region, []):
-            url = src.get("url"); ptype = src.get("type", "json")
+            ptype = src.get("type", "json")
+            if ptype == "render":
+                continue  # JS 渲染交给 render.py
+            url = src.get("url")
             try:
                 body = http_get(url)
                 r = parse_json(body, region) if ptype == "json" else parse_html(body, region)
@@ -116,6 +119,19 @@ def main():
                     chosen = r; break
             except Exception:
                 continue
+
+        # JS 渲染兜底：render.py 生成的 macau_rendered.json
+        if not chosen:
+            rend = os.path.join(HERE, "macau_rendered.json")
+            if os.path.exists(rend):
+                try:
+                    rr = json.load(open(rend, encoding="utf-8")).get(region)
+                    if valid(rr):
+                        rr.setdefault("fetched", int(time.time()))
+                        rr["source"] = rr.get("source", "render"); chosen = rr
+                except Exception:
+                    pass
+
         if chosen:
             results[region] = chosen; results[region + "_is_cached"] = False
         elif region in last and valid(last.get(region)):
