@@ -1,8 +1,11 @@
 name: 港澳六合彩抓取
 
 on:
+  # GitHub 的 cron 用 UTC，北京时间 = UTC+8。只在傍晚开奖时段刷，省额度。
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '0 12 * * *'    # 北京 20:00
+    - cron: '30 13 * * *'   # 北京 21:30
+    - cron: '40 13 * * *'   # 北京 21:40
   push:
     paths:
       - 'upstreams.json'
