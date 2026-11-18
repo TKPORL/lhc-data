@@ -45,7 +45,7 @@ def parse_lotobo(html):
 def gen_parse(text):
     m = PAT.search(text)
     if not m: return None
-    parts = [int(x) for x in m.group(0).split()]
+    parts = [int(x) for x in re.split(r"[ ,，、/\s]+", m.group(0)) if x]
     if len(parts) < 6: return None
     return {"issue": "", "balls": parts[:6], "special": (f"{parts[6]:02d}" if len(parts) >= 7 else None)}
 
