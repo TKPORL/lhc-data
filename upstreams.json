@@ -1,7 +1,7 @@
 {
   "_note": "上游源清单。http/json 类型由 scrape.py 直接抓；render 类型由 render.py 用无头浏览器渲染后抓。每地区按顺序取到第一个合法(7球1-49+特码)即停。域名死掉改这一份、commit 即全网愈合，手机App不变。",
   "macau": [
-    { "id": "mac_lotobao", "url": "https://lotobao.com/loto/mo/new_mark6", "type": "render" },
+    { "id": "mac_lotobao", "url": "https://lotobao.com/loto/mo/new_mark6", "type": "lotobo" },
     { "id": "mac_jc", "url": "https://macaujc.com/", "type": "render" },
     { "id": "mac_jcmacau", "url": "https://jc-macau.com/", "type": "render" },
     { "id": "mac_app1", "url": "https://111826h2.66111eee3.com/area/aomen", "type": "render" },
