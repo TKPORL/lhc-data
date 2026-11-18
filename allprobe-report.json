@@ -1,0 +1,205 @@
+{
+  "hk_on99": {
+    "region": "hongkong",
+    "url": "https://on99.life/api/lottery/history",
+    "method": "http-json",
+    "balls": [
+      4,
+      7,
+      18,
+      30,
+      42,
+      45
+    ],
+    "special": "36",
+    "issue": "26/122",
+    "err": ""
+  },
+  "mac_lotobo": {
+    "region": "macau",
+    "url": "https://lotobao.com/loto/mo/new_mark6",
+    "method": "js-render",
+    "balls": [
+      15,
+      45,
+      23,
+      8,
+      47,
+      49
+    ],
+    "special": "41",
+    "issue": "26/321",
+    "err": ""
+  },
+  "mac_jc": {
+    "region": "macau",
+    "url": "https://macaujc.com/",
+    "method": null,
+    "balls": null,
+    "special": null,
+    "issue": null,
+    "err": "no-nums(len=115789)"
+  },
+  "mac_jcmacau": {
+    "region": "macau",
+    "url": "https://jc-macau.com/",
+    "method": null,
+    "balls": null,
+    "special": null,
+    "issue": null,
+    "err": "no-nums(len=116216)"
+  },
+  "mac_app1": {
+    "region": "macau",
+    "url": "https://111826h2.66111eee3.com/area/aomen",
+    "method": null,
+    "balls": null,
+    "special": null,
+    "issue": null,
+    "err": "no-nums(len=134796)"
+  },
+  "mac_app2": {
+    "region": "macau",
+    "url": "https://111826h2.66111fff3.com/area/aomen",
+    "method": null,
+    "balls": null,
+    "special": null,
+    "issue": null,
+    "err": "no-nums(len=134601)"
+  },
+  "mac_app3": {
+    "region": "macau",
+    "url": "https://111826h2.66111hhh3.com/area/aomen",
+    "method": null,
+    "balls": null,
+    "special": null,
+    "issue": null,
+    "err": "no-nums(len=134601)"
+  },
+  "mac_app4": {
+    "region": "macau",
+    "url": "https://111826h2.66111iii3.com/area/aomen",
+    "method": null,
+    "balls": null,
+    "special": null,
+    "issue": null,
+    "err": "no-nums(len=134796)"
+  },
+  "mac_tonti": {
+    "region": "macau",
+    "url": "https://tonti4gbn.yzjkzzbfn.xyz/?redirect=/#_t=25869daj",
+    "method": null,
+    "balls": null,
+    "special": null,
+    "issue": null,
+    "err": "no-nums(len=4549)"
+  },
+  "mac_tonto": {
+    "region": "macau",
+    "url": "https://tonto62pz.aajnaaraahmc.xyz/?redirect=/#_t=25869d66",
+    "method": null,
+    "balls": null,
+    "special": null,
+    "issue": null,
+    "err": "no-nums(len=4552)"
+  },
+  "hk_1314": {
+    "region": "hongkong",
+    "url": "https://hk1314.com/?cai_type=HK",
+    "method": null,
+    "balls": null,
+    "special": null,
+    "issue": null,
+    "err": "no-nums(len=52764)"
+  },
+  "hk_hkmark6": {
+    "region": "hongkong",
+    "url": "https://www.hkmark6.net/",
+    "method": null,
+    "balls": null,
+    "special": null,
+    "issue": null,
+    "err": "invalid literal for int() with base 10: '36,4,7,18,30,42,4'"
+  },
+  "hk_marksixinfo": {
+    "region": "hongkong",
+    "url": "https://marksixinfo.com/",
+    "method": null,
+    "balls": null,
+    "special": null,
+    "issue": null,
+    "err": "invalid literal for int() with base 10: '4,7,18,30,42,45,3'"
+  },
+  "hk_newhkjc": {
+    "region": "hongkong",
+    "url": "https://www.newhkjc.com/",
+    "method": null,
+    "balls": null,
+    "special": null,
+    "issue": null,
+    "err": "no-nums(len=287130)"
+  },
+  "hk_672": {
+    "region": "hongkong",
+    "url": "https://hk672.com/",
+    "method": null,
+    "balls": null,
+    "special": null,
+    "issue": null,
+    "err": "no-nums(len=54655)"
+  },
+  "hk_673": {
+    "region": "hongkong",
+    "url": "https://hk673.com/",
+    "method": null,
+    "balls": null,
+    "special": null,
+    "issue": null,
+    "err": "no-nums(len=52747)"
+  },
+  "hk_674": {
+    "region": "hongkong",
+    "url": "https://hk674.com/",
+    "method": null,
+    "balls": null,
+    "special": null,
+    "issue": null,
+    "err": "no-nums(len=52764)"
+  },
+  "hk_675": {
+    "region": "hongkong",
+    "url": "https://hk675.com/",
+    "method": null,
+    "balls": null,
+    "special": null,
+    "issue": null,
+    "err": "no-nums(len=52764)"
+  },
+  "hk_mingpao": {
+    "region": "hongkong",
+    "url": "https://news.mingpao.com/pns/%E5%85%AD%E5%90%88%E5%BD%A9/marksix",
+    "method": null,
+    "balls": null,
+    "special": null,
+    "issue": null,
+    "err": "no-nums(len=44843)"
+  },
+  "hk_lottery_hk": {
+    "region": "hongkong",
+    "url": "https://lottery.hk/liuhecai/",
+    "method": null,
+    "balls": null,
+    "special": null,
+    "issue": null,
+    "err": "no-nums(len=1088301)"
+  },
+  "hk_on99_page": {
+    "region": "hongkong",
+    "url": "https://on99.life/lottery/results",
+    "method": null,
+    "balls": null,
+    "special": null,
+    "issue": null,
+    "err": "no-nums(len=2126772)"
+  }
+}
