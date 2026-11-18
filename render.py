@@ -29,7 +29,7 @@ def extract(txt):
     m = PAT.search(txt)
     if not m:
         return None
-    parts = [int(x) for x in m.group(0).split()]
+    parts = [int(x) for x in re.split(r"[ ,，、/\s]+", m.group(0)) if x]
     special = tm.group(2) if tm else (f"{parts[6]:02d}" if len(parts) >= 7 else None)
     return {"issue": "", "time": "", "special": special, "balls": parts[:6]}
 
