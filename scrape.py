@@ -77,6 +77,29 @@ def parse_html(body, region):
     return out
 
 
+def parse_lotobo(body):
+    """lotobao 澳门页：#last-draw-block -> 今期開彩結果 - 期 日期 6正码 ＋ 特码"""
+    i = body.find('id="last-draw-block"')
+    if i < 0:
+        return None
+    seg = body[i:i + 3000]
+    txt = re.sub(r"<[^>]+>", " ", seg)
+    txt = re.sub(r"\s+", " ", txt)
+    m = re.search(r"(\d+/\d+)\s*期", txt)
+    dm = re.search(r"(\d{4}-\d{2}-\d{2})", txt)
+    plus = txt.find("＋")
+    if plus < 0:
+        return None
+    head = txt[:plus].split("）")[-1]
+    balls = [int(x) for x in re.findall(r"\b(\d{1,2})\b", head)]
+    sp = re.search(r"\b(\d{1,2})\b", txt[plus:])
+    r = {"issue": (m.group(1) if m else ""), "time": (dm.group(1) if dm else ""),
+         "special": (sp.group(1).zfill(2) if sp else None), "balls": [0] * 6}
+    if len(balls) >= 6:
+        r["balls"] = balls[-6:]
+    return r
+
+
 def valid(r):
     if not r: return False
     for b in r["balls"]:
@@ -113,7 +136,12 @@ def main():
             url = src.get("url")
             try:
                 body = http_get(url)
-                r = parse_json(body, region) if ptype == "json" else parse_html(body, region)
+                if ptype == "json":
+                    r = parse_json(body, region)
+                elif ptype == "lotobo":
+                    r = parse_lotobo(body)
+                else:
+                    r = parse_html(body, region)
                 if valid(r):
                     r["source"] = src.get("id", url); r["fetched"] = int(time.time())
                     chosen = r; break
