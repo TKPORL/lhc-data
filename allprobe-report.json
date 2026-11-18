@@ -15,6 +15,38 @@
     "issue": "26/122",
     "err": ""
   },
+  "hk_hkmark6": {
+    "region": "hongkong",
+    "url": "https://www.hkmark6.net/",
+    "method": "http-html",
+    "balls": [
+      36,
+      4,
+      7,
+      18,
+      30,
+      42
+    ],
+    "special": "04",
+    "issue": "",
+    "err": ""
+  },
+  "hk_marksixinfo": {
+    "region": "hongkong",
+    "url": "https://marksixinfo.com/",
+    "method": "http-html",
+    "balls": [
+      4,
+      7,
+      18,
+      30,
+      42,
+      45
+    ],
+    "special": "03",
+    "issue": "",
+    "err": ""
+  },
   "mac_lotobo": {
     "region": "macau",
     "url": "https://lotobao.com/loto/mo/new_mark6",
@@ -56,7 +88,7 @@
     "balls": null,
     "special": null,
     "issue": null,
-    "err": "no-nums(len=134796)"
+    "err": "no-nums(len=134601)"
   },
   "mac_app2": {
     "region": "macau",
@@ -83,7 +115,7 @@
     "balls": null,
     "special": null,
     "issue": null,
-    "err": "no-nums(len=134796)"
+    "err": "no-nums(len=134601)"
   },
   "mac_tonti": {
     "region": "macau",
@@ -112,24 +144,6 @@
     "issue": null,
     "err": "no-nums(len=52764)"
   },
-  "hk_hkmark6": {
-    "region": "hongkong",
-    "url": "https://www.hkmark6.net/",
-    "method": null,
-    "balls": null,
-    "special": null,
-    "issue": null,
-    "err": "invalid literal for int() with base 10: '36,4,7,18,30,42,4'"
-  },
-  "hk_marksixinfo": {
-    "region": "hongkong",
-    "url": "https://marksixinfo.com/",
-    "method": null,
-    "balls": null,
-    "special": null,
-    "issue": null,
-    "err": "invalid literal for int() with base 10: '4,7,18,30,42,45,3'"
-  },
   "hk_newhkjc": {
     "region": "hongkong",
     "url": "https://www.newhkjc.com/",
@@ -146,7 +160,7 @@
     "balls": null,
     "special": null,
     "issue": null,
-    "err": "no-nums(len=54655)"
+    "err": "no-nums(len=56245)"
   },
   "hk_673": {
     "region": "hongkong",
@@ -155,7 +169,7 @@
     "balls": null,
     "special": null,
     "issue": null,
-    "err": "no-nums(len=52747)"
+    "err": "no-nums(len=52764)"
   },
   "hk_674": {
     "region": "hongkong",
@@ -173,7 +187,7 @@
     "balls": null,
     "special": null,
     "issue": null,
-    "err": "no-nums(len=52764)"
+    "err": "no-nums(len=52747)"
   },
   "hk_mingpao": {
     "region": "hongkong",
@@ -191,7 +205,7 @@
     "balls": null,
     "special": null,
     "issue": null,
-    "err": "no-nums(len=1088301)"
+    "err": "Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigatin"
   },
   "hk_on99_page": {
     "region": "hongkong",
@@ -200,6 +214,6 @@
     "balls": null,
     "special": null,
     "issue": null,
-    "err": "no-nums(len=2126772)"
+    "err": "no-nums(len=2126774)"
   }
 }
