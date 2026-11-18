@@ -21,6 +21,9 @@ def main():
     with sync_playwright() as p:
         br = p.chromium.launch(args=["--no-sandbox", "--disable-dev-shm-usage", "--disable-blink-features=AutomationControlled"])
         pg = br.new_page(user_agent="Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1")
+        pg.add_init_script("Object.defineProperty(navigator,'webdriver',{get:()=>undefined});window.chrome={app:{}};Object.defineProperty(navigator,'languages',{get:()=>['zh-CN','zh']});Object.defineProperty(navigator,'plugins',{get:()=>[1,2,3]});")
+        dump_path = os.path.join(HERE, "macau_dump.html")
+        dumped = False
         for region in ("macau", "hongkong"):
             for src in up.get(region, []):
                 if src.get("type") != "render":
@@ -43,8 +46,11 @@ def main():
                         pg.wait_for_load_state("networkidle", timeout=12000)
                     except Exception:
                         pass
-                    pg.wait_for_timeout(6000)
+                    pg.wait_for_timeout(8000)
                     rec["final"] = pg.url
+                    if region == "macau" and not dumped:
+                        open(dump_path, "w").write(pg.content())
+                        dumped = True
                     ntxt = pg.eval_on_selector_all("body", "els => els.map(e => e.innerText || '').join('\\n')")[0]
                     rec["nlen"] = len(ntxt)
                     r = extract(ntxt)
