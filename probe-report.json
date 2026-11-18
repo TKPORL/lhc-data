@@ -5,7 +5,7 @@
       "url": "https://lotobao.com/loto/mo/new_mark6",
       "type": "render",
       "code": 200,
-      "len": 166477,
+      "len": 166499,
       "has7": false,
       "sample": "",
       "isjson": true
@@ -97,7 +97,7 @@
       "url": "https://on99.life/api/lottery/history",
       "type": "json",
       "code": 200,
-      "len": 104657,
+      "len": 103986,
       "has7": false,
       "sample": "",
       "isjson": true
@@ -147,7 +147,7 @@
       "url": "https://hk672.com/",
       "type": "html",
       "code": 200,
-      "len": 26441,
+      "len": 26453,
       "has7": false,
       "sample": "",
       "isjson": false
@@ -157,7 +157,7 @@
       "url": "https://hk673.com/",
       "type": "html",
       "code": 200,
-      "len": 26441,
+      "len": 26453,
       "has7": false,
       "sample": "",
       "isjson": false
@@ -167,7 +167,7 @@
       "url": "https://hk674.com/",
       "type": "html",
       "code": 200,
-      "len": 26074,
+      "len": 26086,
       "has7": false,
       "sample": "",
       "isjson": false
@@ -177,7 +177,7 @@
       "url": "https://hk675.com/",
       "type": "html",
       "code": 200,
-      "len": 26074,
+      "len": 26086,
       "has7": false,
       "sample": "",
       "isjson": false
@@ -193,7 +193,7 @@
       "url": "https://lottery.hk/liuhecai/",
       "type": "html",
       "code": 200,
-      "len": 11908,
+      "len": 12650,
       "has7": false,
       "sample": "",
       "isjson": false
