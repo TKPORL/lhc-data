@@ -65,7 +65,7 @@ def parse_html(body, region):
     m = re.search(r"(0?[1-9]|[1-4]\d)([ ,，、\s]+(0?[1-9]|[1-4]\d)){6}", body)
     if not m:
         return None
-    parts = m.group(0).split()
+    parts = [p for p in re.split(r"[ ,，、/\s]+", m.group(0)) if p]
     out = {"issue": "", "time": "", "special": None, "balls": [int(parts[i]) for i in range(min(6, len(parts)))]}
     if len(parts) >= 7:
         out["special"] = f"{int(parts[6]):02d}"
