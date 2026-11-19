@@ -1,35 +1,35 @@
 {
-  "ts": 1795038068,
+  "ts": 1795117416,
   "macau": {
-    "issue": "26/322",
-    "time": "2026-11-18",
-    "special": "07",
+    "issue": "26/323",
+    "time": "2026-11-19",
+    "special": "47",
     "balls": [
-      47,
-      31,
-      43,
-      17,
+      33,
       8,
-      30
+      2,
+      9,
+      15,
+      41
     ],
     "source": "mac_lotobao",
-    "fetched": 1795038069
+    "fetched": 1795117417
   },
   "macau_is_cached": false,
   "hongkong": {
-    "issue": "26/122",
-    "time": "2026-11-17",
-    "special": "36",
+    "issue": "26/123",
+    "time": "2026-11-19",
+    "special": "41",
     "balls": [
-      4,
-      7,
+      12,
       18,
-      30,
-      42,
-      45
+      32,
+      45,
+      47,
+      49
     ],
     "source": "hk_on99",
-    "fetched": 1795038069
+    "fetched": 1795117418
   },
   "hongkong_is_cached": false
 }
