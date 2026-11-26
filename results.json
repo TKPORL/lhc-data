@@ -1,5 +1,5 @@
 {
-  "ts": 1795732188,
+  "ts": 1795732503,
   "macau": {
     "issue": "26/330",
     "time": "2026-11-26",
@@ -13,7 +13,7 @@
       22
     ],
     "source": "mac_lotobao",
-    "fetched": 1795732189
+    "fetched": 1795732504
   },
   "macau_is_cached": false,
   "hongkong": {
@@ -29,7 +29,7 @@
       41
     ],
     "source": "hk_on99",
-    "fetched": 1795732190
+    "fetched": 1795732505
   },
   "hongkong_is_cached": false
 }
