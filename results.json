@@ -1,19 +1,19 @@
 {
-  "ts": 1795732503,
+  "ts": 1795811162,
   "macau": {
-    "issue": "26/330",
-    "time": "2026-11-26",
-    "special": "26",
+    "issue": "26/331",
+    "time": "2026-11-27",
+    "special": "13",
     "balls": [
-      25,
-      35,
-      20,
-      8,
-      30,
-      22
+      27,
+      18,
+      3,
+      47,
+      16,
+      14
     ],
     "source": "mac_lotobao",
-    "fetched": 1795732504
+    "fetched": 1795811163
   },
   "macau_is_cached": false,
   "hongkong": {
@@ -29,7 +29,7 @@
       41
     ],
     "source": "hk_on99",
-    "fetched": 1795732505
+    "fetched": 1795811165
   },
   "hongkong_is_cached": false
 }
